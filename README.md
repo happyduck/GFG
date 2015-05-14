@@ -1,5 +1,5 @@
-# GFG-Array
-This repo will list Java solutions for the Array questions on the geeksforgeeks site.
+## GFG-Array
+This section will list Java solutions for the Array questions on the geeksforgeeks site.
 <br>
 <br>
 <br>
