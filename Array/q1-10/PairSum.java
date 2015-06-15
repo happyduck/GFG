@@ -24,9 +24,7 @@ public class PairSum {
 		return false;
 	}
 	
-	// find all pairs by sorting
-
-	// Using HashSet, time complexity O(n)
+	// find all pairs using HashSet, time complexity O(n)
 	public static void quickFind(int[] array, int sum) {
 		HashSet<Integer> set = new HashSet<Integer>();
 		int i = 0;
