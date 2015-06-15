@@ -8,7 +8,7 @@ import java.util.HashSet;
 
 public class PairSum {
 
-	// find pair by sorting
+	// find one pair by sorting
 	public static boolean findPair(int[] array, int sum) {
 		Arrays.sort(array);
 		int i = 0;
