@@ -47,7 +47,8 @@ public class PairSum {
 			
 		int[] b = {1,2,2,3,4,5};
 		int y = 6;
-		quickFind(b, y);
+		// quickFind(b, y);
+		findPair(b, y);
 		
 	}
 }
