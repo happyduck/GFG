@@ -8,20 +8,20 @@ import java.util.HashSet;
 
 public class PairSum {
 
-	// find one pair by sorting
-	public static boolean findPair(int[] array, int sum) {
+	// find pairs by sorting, time complexity depends on sorting algorithm
+	// merge sort for O(nlgn), quick sort for O(n) in worst time
+	public static void findPair(int[] array, int sum) {
 		Arrays.sort(array);
 		int i = 0;
 		int j = array.length-1;
-		while (i <= j) {
+		while (i < j) {
 			if(array[i] + array[j] == sum) 
-				return true;
+				System.out.println("found a pair: " + array[i] + ", "+ array[j]);
 			else if(array[i] + array[j] < sum)
 				i++;
 			else 
 				j--;
 		}
-		return false;
 	}
 	
 	// find all pairs using HashSet, time complexity O(n)
