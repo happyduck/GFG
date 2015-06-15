@@ -15,8 +15,11 @@ public class PairSum {
 		int i = 0;
 		int j = array.length-1;
 		while (i < j) {
-			if(array[i] + array[j] == sum) 
+			if(array[i] + array[j] == sum) {
 				System.out.println("found a pair: " + array[i] + ", "+ array[j]);
+				i++;
+				j--;
+			}
 			else if(array[i] + array[j] < sum)
 				i++;
 			else 
